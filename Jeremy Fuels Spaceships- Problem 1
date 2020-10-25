@@ -1,0 +1,23 @@
+## Input Section
+x = input()			## how to receive the input from problem as a string
+x = x.split(" ")			## splits the input
+x = [int(y) for y in x]		## converts the input into integers
+
+amt = x[0]		## indexes 1st element to know how much fuel the spaceship requires 
+del x[0]			## function to delete first element
+total = 0		## initializes total, amount of fuel in spaceship
+fuel = 0		## initializes fuel, number of times spaceship has to be fueled
+
+## for loop to go through every element in the list, x
+for h in x:		    
+total+= h		## adds up each fuel amount
+    	fuel+=1		## increase the number of times fueled by 1
+    
+	## checks to see if the amount of fuel needed has been exceeded
+    	if total >= amt:	
+       			
+## prints out number of times spaceship had to be fueled before the spaceship 
+## received enough fuel
+print("The ship was fueled " + str(fuel) + " times. The ship has been fueled!")
+        		
+break		## breaks the loop
