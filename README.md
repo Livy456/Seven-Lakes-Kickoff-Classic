@@ -1,2 +1,4 @@
 # Seven-Lakes-Kickoff-Classic
-This is a virtual programming competition I competed on with a team from my school on October 17, 2020
+This was a novice programming competition done on the Hackerrank website. I competed on a team of two for my high school programming club.
+
+
