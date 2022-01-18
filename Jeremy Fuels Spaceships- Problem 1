@@ -21,3 +21,4 @@ total+= h		## adds up each fuel amount
 print("The ship was fueled " + str(fuel) + " times. The ship has been fueled!")
         		
 break		## breaks the loop
+vim: syntax=python
